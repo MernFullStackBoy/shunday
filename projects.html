@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyihalar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+
+        :root {
+            --font-family: "Red Hat Display";
+            --color: white;
+        }
+
+        .container {
+            width: 1366px;
+            margin: 0 auto;
+            background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--color);
+            font-family: var(--font-family);
+            font-size: 40px;
+        }
+
+        .card img {
+            width: 300px;
+            height: 200px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+
+        .card {
+            width: 300px;
+            height: 350px;
+            background: rgba(24, 22, 22, 0.219);
+            border-radius: 20px;
+            box-shadow: inset 0 0 50px 1px var(--color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+        }
+
+        .card button {
+            width: 200px;
+            height: 50px;
+            background-color: #ff00aa;
+            border: none;
+            border-radius: 10px;
+            margin-top: 30px;
+            color: var(--color);
+            font-size: 18px;
+            box-shadow: 0 7px 2px 1px #ff0055;
+            transition: 0.1s;
+            font-family: var(--font-family);
+        }
+
+        .cards {
+            box-shadow: inset 0 0 100px 2px var(--color);
+            padding: 0 70px 0 70px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 60px;
+            border-radius: 30px;
+            margin-top: 50px;
+        }
+
+        .card button:active {
+            transform: translateY(7%);
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Loyihalarim To'plami</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="./images/netflic.png" alt="Images">
+                <a href="https://kino-boshlangich-klon.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/whack-a-mole.png" alt="Images">
+                <a href="https://zarba.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/check.png" alt="Images">
+                <a href="https://check-chest-scary-game.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/animation.png" alt="Images">
+                <a href="https://kozlar.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/battery.png" alt="Images">
+                <a href="https://battery-status-pro.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/heart.png" alt="Images">
+                <a href="https://heart-rain.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/dash.png" alt="Images">
+                <a href="https://car-game-ten.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/gamics.png" alt="Images">
+                <a href="https://gamics-ivory.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/micro.png" alt="Images">
+                <a href="https://micro-indol.vercel.app">
+                    <button>Kirish</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
